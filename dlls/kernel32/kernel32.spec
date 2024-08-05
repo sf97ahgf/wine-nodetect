@@ -1709,9 +1709,4 @@
 ################################################################
 # Wine internal extensions
 #
-# All functions must be prefixed with '__wine_' (for internal functions)
-# or 'wine_' (for user-visible functions) to avoid namespace conflicts.
-
-# Unix files
-@ cdecl wine_get_unix_file_name(wstr)
-@ cdecl wine_get_dos_file_name(str)
+# Removed as a part of this fork.
